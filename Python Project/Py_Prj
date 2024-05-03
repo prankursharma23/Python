@@ -1,0 +1,232 @@
+a=int(input("Choose the Currency you want to change from \n1.INR\n2.USD\n3.GBP\n4.EUR\n5.AUD\n6.CHF\n7.JPY\n8.BRL\n9.CHF\n10.RUB\n"))
+c=float(input("Enter the Amount you want to get Converted"))
+b=int(input("Choose the Currency you want to change to \n1.INR\n2.USD\n3.GBP\n4.EUR\n5.AUD\n6.CHF\n7.JPY\n8.BRL\n9.CHF\n10.RUB\n"))
+if a==1:
+    if b==1:
+        print("The Currency is Same")
+    if b==2:
+        print(f"The INR is Converted to USD and the Converted currency is {c*0.012} USD")
+    if b==3:
+        print(f"The Converted currency is {c*0.0096} GBP")
+    if b==4:
+        print(f"The Converted currency is {c*0.011} EUR")
+    if b==5:
+        print(f"The Converted currency is {c*0.018}AUD")
+    if b==6:
+       print(f"The Converted currency is {c*0.011}CHF")
+    if b==7:
+        print(f"The Converted currency is {c*1.87}JPY")
+    if b==8:
+        print(f"The Converted currency is {c*0.062}BRL")
+    if b==9:
+        print(f"The Converted currency is {c*0.011}CHF")
+    if  b==10:
+        print(f"The Converted currency is {c*1.12}RUB")
+
+if a == 2:
+    if b == 1:
+        print(f"The  converted Currency is  {c*83.38} INR")
+    if b == 2:
+        print(f"The Currency is Same ")
+    if b == 3:
+        print(f"The Converted currency is {c * 0.80} GBP")
+    if b == 4:
+        print(f"The Converted currency is {c * 0.93} EURO")
+    if b == 5:
+        print(f"The Converted currency is {c* 1.54} AUD")
+    if b == 6:
+        print(f"The Converted currency is {c *0.91} CHF ")
+    if b == 7:
+        print(f"The Converted currency is {c * 155.66} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 5.15} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c * 0.91} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 93.17}RUB")
+
+if a == 3:
+    if b == 1:
+        print(f"The  converted Currency is  {c*103.95} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*1.25} USD")
+    if b == 3:
+        print(f"The  currency is same ")
+    if b == 4:
+        print(f"The Converted currency is {c * 1.16} EURO")
+    if b == 5:
+        print(f"The Converted currency is {c* 1.92} AUD")
+    if b == 6:
+        print(f"The Converted currency is {c* 1.14} CHF")
+    if b == 7:
+        print(f"The Converted currency is {c * 194.66} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 3.35} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c * 1.14} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 116.17} RUB")
+
+
+if a == 4:
+    if b == 1:
+        print(f"The  converted Currency is  {c* 89.2} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*1.07} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.80} GBP")
+    if b == 4:
+        print(f"The  currency is  same ")
+    if b == 5:
+        print(f"The Converted currency is {c* 1.65} AUD")
+    if b == 6:
+        print(f"The Converted currency is {c* 0.90} CHF")
+    if b == 7:
+        print(f"The Converted currency is {c * 166.76} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 5.52} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c *0.98} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 99.78} RUB")
+
+
+if a == 5:
+    if b == 1:
+        print(f"The  converted Currency is  {c* 54.27} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*0.65} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.52} GBP")
+    if b == 4:
+        print(f"The  converted  currency is  {c*0.61} EURO ")
+    if b == 5:
+        print(f"The  currency is  same  ")
+    if b == 6:
+        print(f"The Converted currency is {c* 0.59} CHF")
+    if b == 7:
+        print(f"The Converted currency is {c * 155.72} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 5.52} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c *0.58} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 60.68} RUB")
+
+
+if a == 6:
+    if b == 1:
+        print(f"The  converted Currency is  {c*91.20} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*1.09} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.88} GBP ")
+    if b == 4:
+        print(f"The  converted  currency is  {c*1.02} EURO ")
+    if b == 5:
+        print(f"The   converted currency is {c*1.68} AUD ")
+    if b == 6:
+        print(f"The  currency is  same ")
+    if b == 7:
+        print(f"The Converted currency is {c * 1.02} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 5.63} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c *1.02} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 60.68} RUB")
+
+
+
+if a == 7:
+    if b == 1:
+        print(f"The  converted Currency is  {c*0.54} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*0.0064} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.0054} GBP ")
+    if b == 4:
+        print(f"The  converted  currency is  {c*0.0064} EURO")
+    if b == 5:
+        print(f"The   converted currency is {c*0.0099} AUD")
+    if b == 6:
+        print(f"The  currency is  same {c *0.0059} CHF")
+    if b == 7:
+        print(f"The  currency is ")
+    if b == 8:
+        print(f"The Converted currency is {c *0.033} BRL")
+    if b == 9:
+        print(f"The Converted currency is {c *0.0058} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 0.60} RUB")
+
+
+
+if a == 8:
+    if b == 1:
+        print(f"The  converted Currency is  {c*16.20} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*0.19} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.16} GBP ")
+    if b == 4:
+        print(f"The  converted  currency is  {c*0.18} EURO")
+    if b == 5:
+        print(f"The   converted currency is {c*0.30} AUD")
+    if b == 6:
+        print(f"The  currency is  same {c *0.18} CHF")
+    if b == 7:
+        print(f"The   converted currency is   {c* 30.20} JPY  ")
+    if b == 8:
+        print(f"The  currency is same  BRL")
+    if b == 9:
+        print(f"The Converted currency is {c *0.17} CHF")
+    if b == 10:
+        print(f"The Converted currency is {c * 18.10} RUB")
+
+
+
+if a == 9:
+    if b == 1:
+        print(f"The  converted Currency is  {c*91.20} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*1.09} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.88} GBP ")
+    if b == 4:
+        print(f"The  converted  currency is  {c*1.02} EURO ")
+    if b == 5:
+        print(f"The   converted currency is {c*1.68} AUD ")
+    if b == 6:
+        print(f"The   converted currency is {c*1.90}  chf  ")
+    if b == 7:
+        print(f"The Converted currency is {c * 1.02} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 5.63} BRL")
+    if b == 9:
+        print(f"The   currency is same ")
+    if b == 10:
+        print(f"The Converted currency is {c * 60.68} RUB")
+
+
+if a == 10:
+    if b == 1:
+        print(f"The  converted Currency is  {c*0.90} INR")
+    if b == 2:
+        print(f"The  converted Currency is  {c*0.011} USD")
+    if b == 3:
+        print(f"The  converted currency  is {c*0.0088} GBP ")
+    if b == 4:
+        print(f"The  converted  currency is  {c*0.010} EURO ")
+    if b == 5:
+        print(f"The   converted currency is {c*0.017} AUD ")
+    if b == 6:
+        print(f"The   converted currency is {c*0.0098}  chf  ")
+    if b == 7:
+        print(f"The Converted currency is {c * 1.69} JPY")
+    if b == 8:
+        print(f"The Converted currency is {c * 0.055} BRL")
+    if b == 9:
+        print(f"The Converted currency is same {c * 0.0095} CHF")
+    if b == 10:
+        print(f"The  currency is same  RUB")
